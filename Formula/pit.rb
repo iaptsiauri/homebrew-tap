@@ -1,18 +1,18 @@
 class Pit < Formula
   desc "Run multiple coding agents in parallel with git worktree isolation"
   homepage "https://github.com/iaptsiauri/pit"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iaptsiauri/pit/releases/download/v0.3.0/pit-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8338f284dd5b80efaa91064d87bc9fbf0fb79996020184eab1b5c48a3a67afc6"
+      url "https://github.com/iaptsiauri/pit/releases/download/v0.4.0/pit-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "394d1d7a9c9488a6d038172b3893197f6359c801b7cd015e174981bef1c90e4e"
     end
 
     on_intel do
-      url "https://github.com/iaptsiauri/pit/releases/download/v0.3.0/pit-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "02244456a0122b8dbf60b3ceae2dad8d69243dc30fb3d9df1281d4adfbac0952"
+      url "https://github.com/iaptsiauri/pit/releases/download/v0.4.0/pit-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b1d0cd7b0f8994acc38dfbf57aab60e46d82cdf81a3a0ae0c948315e77ea64a3"
     end
   end
 
